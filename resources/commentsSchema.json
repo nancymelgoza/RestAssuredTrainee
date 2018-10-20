@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "required": [
+      "postId",
+      "id",
+      "name",
+      "email",
+      "body"
+    ],
+    "properties": {
+      "postId": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "body": {
+        "type": "string"
+      }
+    }
+  }
+}

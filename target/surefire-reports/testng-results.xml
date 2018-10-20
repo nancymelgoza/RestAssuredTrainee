@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestASsured Test" duration-ms="10040" started-at="2018-10-20T17:44:22Z" finished-at="2018-10-20T17:44:32Z">
+    <groups>
+    </groups>
+    <test name="RestAssuredTrainee" duration-ms="10040" started-at="2018-10-20T17:44:22Z" finished-at="2018-10-20T17:44:32Z">
+      <class name="trainee.restassured.tests.SchemaValidationTests">
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="1147" started-at="2018-10-20T12:44:25Z" data-provider="schemas" finished-at="2018-10-20T12:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[postSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="750" started-at="2018-10-20T12:44:26Z" data-provider="schemas" finished-at="2018-10-20T12:44:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/comments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[commentsSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="663" started-at="2018-10-20T12:44:27Z" data-provider="schemas" finished-at="2018-10-20T12:44:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/albums]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[albumsSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="944" started-at="2018-10-20T12:44:27Z" data-provider="schemas" finished-at="2018-10-20T12:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/photos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[photosSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="644" started-at="2018-10-20T12:44:28Z" data-provider="schemas" finished-at="2018-10-20T12:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usersSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="schemaValidation(java.lang.String, java.lang.String)[pri:1, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="schemaValidation" duration-ms="615" started-at="2018-10-20T12:44:29Z" data-provider="schemas" finished-at="2018-10-20T12:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/todos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[todosSchema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method status="PASS" signature="postsId20()[pri:2, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="postsId20" duration-ms="644" started-at="2018-10-20T12:44:30Z" finished-at="2018-10-20T12:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId20 -->
+        <test-method status="PASS" signature="postsId50()[pri:3, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="postsId50" duration-ms="324" started-at="2018-10-20T12:44:30Z" finished-at="2018-10-20T12:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId50 -->
+        <test-method status="PASS" signature="postsId100()[pri:4, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="postsId100" duration-ms="349" started-at="2018-10-20T12:44:31Z" finished-at="2018-10-20T12:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId100 -->
+        <test-method status="PASS" signature="getCommentsPostId1()[pri:5, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="getCommentsPostId1" duration-ms="318" started-at="2018-10-20T12:44:31Z" finished-at="2018-10-20T12:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsPostId1 -->
+        <test-method status="PASS" signature="getPostsUserId1()[pri:6, instance:trainee.restassured.tests.SchemaValidationTests@52bf72b5]" name="getPostsUserId1" duration-ms="320" started-at="2018-10-20T12:44:31Z" finished-at="2018-10-20T12:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsUserId1 -->
+      </class> <!-- trainee.restassured.tests.SchemaValidationTests -->
+      <class name="trainee.restassured.tests.ResourceValidationTest">
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="1560" started-at="2018-10-20T12:44:22Z" data-provider="resources" finished-at="2018-10-20T12:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[posts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="321" started-at="2018-10-20T12:44:23Z" data-provider="resources" finished-at="2018-10-20T12:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comments]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="315" started-at="2018-10-20T12:44:23Z" data-provider="resources" finished-at="2018-10-20T12:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[albums]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="426" started-at="2018-10-20T12:44:24Z" data-provider="resources" finished-at="2018-10-20T12:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[photos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="350" started-at="2018-10-20T12:44:24Z" data-provider="resources" finished-at="2018-10-20T12:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+        <test-method status="PASS" signature="getvalResources(java.lang.String)[pri:0, instance:trainee.restassured.tests.ResourceValidationTest@6b81ce95]" name="getvalResources" duration-ms="322" started-at="2018-10-20T12:44:25Z" data-provider="resources" finished-at="2018-10-20T12:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[todos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getvalResources -->
+      </class> <!-- trainee.restassured.tests.ResourceValidationTest -->
+    </test> <!-- RestAssuredTrainee -->
+  </suite> <!-- RestASsured Test -->
+</testng-results>

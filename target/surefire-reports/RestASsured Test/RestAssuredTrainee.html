@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  RestAssuredTrainee</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAssuredTrainee</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 20 12:44:22 CDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10040 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.getCommentsPostId1()'><b>getCommentsPostId1</b><br>Test class: trainee.restassured.tests.SchemaValidationTests</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.getPostsUserId1()'><b>getPostsUserId1</b><br>Test class: trainee.restassured.tests.SchemaValidationTests</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: posts</td>
+<td></td>
+<td>1</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: comments</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: albums</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: photos</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: users</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.ResourceValidationTest.getvalResources()'><b>getvalResources</b><br>Test class: trainee.restassured.tests.ResourceValidationTest<br>Parameters: todos</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.ResourceValidationTest@6b81ce95</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.postsId100()'><b>postsId100</b><br>Test class: trainee.restassured.tests.SchemaValidationTests</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.postsId20()'><b>postsId20</b><br>Test class: trainee.restassured.tests.SchemaValidationTests</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.postsId50()'><b>postsId50</b><br>Test class: trainee.restassured.tests.SchemaValidationTests</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /posts, postSchema.json</td>
+<td></td>
+<td>1</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /comments, commentsSchema.json</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /albums, albumsSchema.json</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /photos, photosSchema.json</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /users, usersSchema.json</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+<tr>
+<td title='trainee.restassured.tests.SchemaValidationTests.schemaValidation()'><b>schemaValidation</b><br>Test class: trainee.restassured.tests.SchemaValidationTests<br>Parameters: /todos, todosSchema.json</td>
+<td></td>
+<td>0</td>
+<td>trainee.restassured.tests.SchemaValidationTests@52bf72b5</td></tr>
+</table><p>
+</body>
+</html>

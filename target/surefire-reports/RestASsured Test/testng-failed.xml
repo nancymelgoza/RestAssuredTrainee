@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RestASsured Test]">
+  <test name="RestAssuredTrainee(failed)">
+    <classes>
+      <class name="trainee.restassured.tests.ResourceValidationTest">
+        <methods>
+          <include name="getvalResources" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- trainee.restassured.tests.ResourceValidationTest -->
+    </classes>
+  </test> <!-- RestAssuredTrainee(failed) -->
+</suite> <!-- Failed suite [RestASsured Test] -->

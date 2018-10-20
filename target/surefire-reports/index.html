@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RestASsured_Test">
+              <span class="suite-name border-passed">RestASsured Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RestASsured_Test">
+                    <span>C:\Users\nancy.melgoza\eclipse-workspace\RestAssuredTrainee\restassured.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RestASsured_Test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RestASsured_Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RestASsured_Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RestASsured_Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RestASsured_Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RestASsured_Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RestASsured_Test" class="hide-methods passed suite-RestASsured_Test"> (hide)</a> <!-- hide-methods passed suite-RestASsured_Test -->
+                      <a href="#" panel-name="suite-RestASsured_Test" class="show-methods passed suite-RestASsured_Test"> (show)</a> <!-- show-methods passed suite-RestASsured_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-RestASsured_Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="getCommentsPostId1">getCommentsPostId1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="getPostsUserId1">getPostsUserId1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(photos)">getvalResources(photos)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(albums)">getvalResources(albums)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(comments)">getvalResources(comments)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(posts)">getvalResources(posts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(users)">getvalResources(users)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.ResourceValidationTest" hash-for-method="getvalResources(todos)">getvalResources(todos)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="postsId100">postsId100</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="postsId20">postsId20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="postsId50">postsId50</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/posts, postSchema.json)">schemaValidation(/posts, postSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/albums, albumsSchema.json)">schemaValidation(/albums, albumsSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/users, usersSchema.json)">schemaValidation(/users, usersSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/comments, commentsSchema.json)">schemaValidation(/comments, commentsSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/photos, photosSchema.json)">schemaValidation(/photos, photosSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestASsured_Test" title="trainee.restassured.tests.SchemaValidationTests" hash-for-method="schemaValidation(/todos, todosSchema.json)">schemaValidation(/todos, todosSchema.json)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RestASsured_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RestASsured_Test" class="panel RestASsured_Test">
+          <div class="suite-RestASsured_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">trainee.restassured.tests.SchemaValidationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCommentsPostId1">
+                  </a> <!-- getCommentsPostId1 -->
+                  <span class="method-name">getCommentsPostId1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPostsUserId1">
+                  </a> <!-- getPostsUserId1 -->
+                  <span class="method-name">getPostsUserId1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postsId100">
+                  </a> <!-- postsId100 -->
+                  <span class="method-name">postsId100</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postsId20">
+                  </a> <!-- postsId20 -->
+                  <span class="method-name">postsId20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postsId50">
+                  </a> <!-- postsId50 -->
+                  <span class="method-name">postsId50</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/posts, postSchema.json)">
+                  </a> <!-- schemaValidation(/posts, postSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/posts, postSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/albums, albumsSchema.json)">
+                  </a> <!-- schemaValidation(/albums, albumsSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/albums, albumsSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/users, usersSchema.json)">
+                  </a> <!-- schemaValidation(/users, usersSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/users, usersSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/comments, commentsSchema.json)">
+                  </a> <!-- schemaValidation(/comments, commentsSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/comments, commentsSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/photos, photosSchema.json)">
+                  </a> <!-- schemaValidation(/photos, photosSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/photos, photosSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="schemaValidation(/todos, todosSchema.json)">
+                  </a> <!-- schemaValidation(/todos, todosSchema.json) -->
+                  <span class="method-name">schemaValidation</span>
+                  <span class="parameters">(/todos, todosSchema.json)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestASsured_Test-class-passed -->
+          <div class="suite-RestASsured_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">trainee.restassured.tests.ResourceValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(photos)">
+                  </a> <!-- getvalResources(photos) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(photos)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(albums)">
+                  </a> <!-- getvalResources(albums) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(albums)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(comments)">
+                  </a> <!-- getvalResources(comments) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(comments)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(posts)">
+                  </a> <!-- getvalResources(posts) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(posts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(users)">
+                  </a> <!-- getvalResources(users) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(users)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getvalResources(todos)">
+                  </a> <!-- getvalResources(todos) -->
+                  <span class="method-name">getvalResources</span>
+                  <span class="parameters">(todos)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestASsured_Test-class-passed -->
+        </div> <!-- panel RestASsured_Test -->
+        <div panel-name="test-xml-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nancy.melgoza\eclipse-workspace\RestAssuredTrainee\restassured.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;RestASsured Test&quot;&gt;
+  &lt;test name=&quot;RestAssuredTrainee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;trainee.restassured.tests.ResourceValidationTest&quot;/&gt;
+      &lt;class name=&quot;trainee.restassured.tests.SchemaValidationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RestAssuredTrainee --&gt;
+&lt;/suite&gt; &lt;!-- RestASsured Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RestASsured Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RestAssuredTrainee (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RestASsured Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RestASsured Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RestASsured_Test');
+function tableData_RestASsured_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getvalResources')
+data.setCell(0, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(0, 3, 1560);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'schemaValidation')
+data.setCell(1, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(1, 3, 1147);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'schemaValidation')
+data.setCell(2, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(2, 3, 944);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'schemaValidation')
+data.setCell(3, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(3, 3, 750);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'schemaValidation')
+data.setCell(4, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(4, 3, 663);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'schemaValidation')
+data.setCell(5, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(5, 3, 644);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'postsId20')
+data.setCell(6, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(6, 3, 644);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'schemaValidation')
+data.setCell(7, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(7, 3, 615);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getvalResources')
+data.setCell(8, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(8, 3, 426);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getvalResources')
+data.setCell(9, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(9, 3, 350);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'postsId100')
+data.setCell(10, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(10, 3, 349);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'postsId50')
+data.setCell(11, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(11, 3, 324);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getvalResources')
+data.setCell(12, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(12, 3, 322);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getvalResources')
+data.setCell(13, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(13, 3, 321);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getPostsUserId1')
+data.setCell(14, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(14, 3, 320);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getCommentsPostId1')
+data.setCell(15, 2, 'trainee.restassured.tests.SchemaValidationTests')
+data.setCell(15, 3, 318);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getvalResources')
+data.setCell(16, 2, 'trainee.restassured.tests.ResourceValidationTest')
+data.setCell(16, 3, 315);
+window.suiteTableData['RestASsured_Test']= { tableData: data, tableDiv: 'times-div-RestASsured_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-RestASsured_Test">
+              </div> <!-- times-div-RestASsured_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RestASsured Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RestASsured_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">trainee.restassured.tests.ResourceValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(posts)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(comments)</span>
+                <span class="method-start">1561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(albums)</span>
+                <span class="method-start">1882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(photos)</span>
+                <span class="method-start">2198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(users)</span>
+                <span class="method-start">2625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getvalResources(todos)</span>
+                <span class="method-start">2975 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">trainee.restassured.tests.SchemaValidationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/posts, postSchema.json)</span>
+                <span class="method-start">3301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/comments, commentsSchema.json)</span>
+                <span class="method-start">4448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/albums, albumsSchema.json)</span>
+                <span class="method-start">5199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/photos, photosSchema.json)</span>
+                <span class="method-start">5863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/users, usersSchema.json)</span>
+                <span class="method-start">6807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">schemaValidation(/todos, todosSchema.json)</span>
+                <span class="method-start">7453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postsId20</span>
+                <span class="method-start">8069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postsId50</span>
+                <span class="method-start">8713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postsId100</span>
+                <span class="method-start">9038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCommentsPostId1</span>
+                <span class="method-start">9387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPostsUserId1</span>
+                <span class="method-start">9706 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
